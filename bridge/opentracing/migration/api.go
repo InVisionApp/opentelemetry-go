@@ -15,12 +15,12 @@
 // This package provides interfaces and functions that are useful for
 // providing a cooperation of the OpenTelemetry tracers with the
 // OpenTracing API.
-package migration // import "go.opentelemetry.io/otel/bridge/opentracing/migration"
+package migration // import "github.com/InVisionApp/opentelemetry-go/bridge/opentracing/migration"
 
 import (
 	"context"
 
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 // DeferredContextSetupTracerExtension is an interface an

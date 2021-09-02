@@ -20,10 +20,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/core"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/metric/batcher/test"
-	"go.opentelemetry.io/otel/sdk/metric/batcher/ungrouped"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/batcher/test"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/batcher/ungrouped"
 )
 
 // These tests use the ../test label encoding.

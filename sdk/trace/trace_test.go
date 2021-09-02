@@ -27,14 +27,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/testharness"
-	"go.opentelemetry.io/otel/api/trace"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	ottest "go.opentelemetry.io/otel/internal/testing"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/testharness"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
+	apitrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	ottest "github.com/InVisionApp/opentelemetry-go/internal/testing"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 var (
@@ -899,7 +899,7 @@ func TestRecordError(t *testing.T) {
 	}{
 		{
 			err: ottest.NewTestError("test error"),
-			typ: "go.opentelemetry.io/otel/internal/testing.TestError",
+			typ: "github.com/InVisionApp/opentelemetry-go/internal/testing.TestError",
 			msg: "test error",
 		},
 		{
@@ -984,7 +984,7 @@ func TestRecordErrorWithStatus(t *testing.T) {
 				Name: errorEventName,
 				Time: errTime,
 				Attributes: []core.KeyValue{
-					errorTypeKey.String("go.opentelemetry.io/otel/internal/testing.TestError"),
+					errorTypeKey.String("github.com/InVisionApp/opentelemetry-go/internal/testing.TestError"),
 					errorMessageKey.String("test error"),
 				},
 			},

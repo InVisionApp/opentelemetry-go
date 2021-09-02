@@ -13,4 +13,4 @@
 // limitations under the License.
 
 // Package stdout contains an OpenTelemetry tracing exporter for writing to stdout.
-package stdout // import "go.opentelemetry.io/otel/exporters/trace/stdout"
+package stdout // import "github.com/InVisionApp/opentelemetry-go/exporters/trace/stdout"

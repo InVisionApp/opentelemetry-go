@@ -17,7 +17,7 @@ package transform
 import (
 	resourcepb "github.com/open-telemetry/opentelemetry-proto/gen/go/resource/v1"
 
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 // Resource transforms a Resource into an OTLP Resource.

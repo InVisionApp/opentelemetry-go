@@ -17,9 +17,9 @@ package global_test
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 type (

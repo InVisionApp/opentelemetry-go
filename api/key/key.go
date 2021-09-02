@@ -15,7 +15,7 @@
 package key
 
 import (
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 // New creates a new key with a passed name.

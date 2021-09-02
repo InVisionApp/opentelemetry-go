@@ -20,9 +20,9 @@ import (
 	"encoding/binary"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/api/core"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/internal/trace/parent"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	apitrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/internal/trace/parent"
 )
 
 // MockTracer is a simple tracer used for testing purpose only.

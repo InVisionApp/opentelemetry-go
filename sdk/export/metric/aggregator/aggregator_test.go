@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package aggregator_test // import "go.opentelemetry.io/otel/sdk/export/metric/aggregator"
+package aggregator_test // import "github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
 
 import (
 	"errors"
@@ -21,11 +21,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/lastvalue"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/lastvalue"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/sum"
 )
 
 func TestInconsistentMergeErr(t *testing.T) {

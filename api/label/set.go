@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package label // import "go.opentelemetry.io/otel/api/label"
+package label // import "github.com/InVisionApp/opentelemetry-go/api/label"
 
 import (
 	"encoding/json"
@@ -20,7 +20,7 @@ import (
 	"sort"
 	"sync"
 
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 type (

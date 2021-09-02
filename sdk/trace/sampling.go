@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"go.opentelemetry.io/otel/api/core"
-	api "go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	api "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 // Sampler decides whether a trace should be sampled and exported.

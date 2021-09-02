@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/metric/prometheus"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/exporters/metric/prometheus"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
 )
 
 var (

@@ -15,10 +15,10 @@
 package global
 
 import (
-	"go.opentelemetry.io/otel/api/global/internal"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/global/internal"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/api/propagation"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 // Tracer creates a named tracer that implements Tracer interface.

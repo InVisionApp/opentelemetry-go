@@ -23,14 +23,14 @@ import (
 	metricpb "github.com/open-telemetry/opentelemetry-proto/gen/go/metrics/v1"
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/unit"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/minmaxsumcount"
-	sumAgg "go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/api/unit"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/minmaxsumcount"
+	sumAgg "github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/sum"
 )
 
 func TestStringKeyValues(t *testing.T) {

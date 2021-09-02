@@ -26,16 +26,16 @@ import (
 
 	metricpb "github.com/open-telemetry/opentelemetry-proto/gen/go/metrics/v1"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/metric"
-	metricapi "go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/otlp"
-	exporttrace "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/metric/batcher/ungrouped"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	metricapi "github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/exporters/otlp"
+	exporttrace "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/batcher/ungrouped"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/selector/simple"
+	sdktrace "github.com/InVisionApp/opentelemetry-go/sdk/trace"
 )
 
 func TestNewExporter_endToEnd(t *testing.T) {

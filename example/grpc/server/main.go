@@ -22,10 +22,10 @@ import (
 	"net"
 	"time"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/example/grpc/api"
-	"go.opentelemetry.io/otel/example/grpc/config"
-	"go.opentelemetry.io/otel/plugin/grpctrace"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/example/grpc/api"
+	"github.com/InVisionApp/opentelemetry-go/example/grpc/config"
+	"github.com/InVisionApp/opentelemetry-go/plugin/grpctrace"
 
 	"google.golang.org/grpc"
 )

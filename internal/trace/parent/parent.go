@@ -17,9 +17,9 @@ package parent
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 func GetSpanContextAndLinks(ctx context.Context, ignoreContext bool) (core.SpanContext, bool, []trace.Link) {

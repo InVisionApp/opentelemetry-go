@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/metric/stdout"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/exporters/metric/stdout"
 )
 
 func ExampleNew() {

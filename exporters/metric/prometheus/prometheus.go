@@ -23,15 +23,15 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/label"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/batcher/ungrouped"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/batcher/ungrouped"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/selector/simple"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 // Exporter is an implementation of metric.Exporter that sends metrics to

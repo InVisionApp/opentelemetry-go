@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package stdout // import "go.opentelemetry.io/otel/exporters/metric/stdout"
+package stdout // import "github.com/InVisionApp/opentelemetry-go/exporters/metric/stdout"
 
 import (
 	"context"
@@ -23,15 +23,15 @@ import (
 	"strings"
 	"time"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/batcher/ungrouped"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/batcher/ungrouped"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/selector/simple"
 )
 
 type Exporter struct {

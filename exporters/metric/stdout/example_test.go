@@ -19,10 +19,10 @@ import (
 	"log"
 	"time"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/metric/stdout"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/exporters/metric/stdout"
 )
 
 func ExampleNewExportPipeline() {

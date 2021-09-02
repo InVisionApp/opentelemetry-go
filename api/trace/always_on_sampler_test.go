@@ -19,7 +19,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 func TestAlwaysOnSamplerShouldSample(t *testing.T) {

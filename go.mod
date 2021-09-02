@@ -1,6 +1,6 @@
-module go.opentelemetry.io/otel
+module github.com/InVisionApp/opentelemetry-go
 
-go 1.13
+go 1.16
 
 require (
 	github.com/DataDog/sketches-go v0.0.0-20190923095040-43f19ad77ff7

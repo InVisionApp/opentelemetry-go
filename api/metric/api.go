@@ -19,8 +19,8 @@ package metric
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/unit"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/unit"
 )
 
 // Provider supports named Meter instances.

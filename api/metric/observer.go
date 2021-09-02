@@ -14,7 +14,7 @@
 
 package metric
 
-import "go.opentelemetry.io/otel/api/core"
+import "github.com/InVisionApp/opentelemetry-go/api/core"
 
 // Int64ObserverResult is an interface for reporting integral
 // observations.

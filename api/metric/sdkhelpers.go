@@ -17,7 +17,7 @@ package metric
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 // MeterImpl is a convenient interface for SDK and test

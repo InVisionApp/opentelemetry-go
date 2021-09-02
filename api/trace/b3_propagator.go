@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/propagation"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/propagation"
 )
 
 const (

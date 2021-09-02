@@ -66,4 +66,4 @@
 // Bound Instruments can be created with the Bind function of the
 // respective instrument. When done with the bound instrument, call
 // Unbind on it.
-package metric // import "go.opentelemetry.io/otel/api/metric"
+package metric // import "github.com/InVisionApp/opentelemetry-go/api/metric"

@@ -90,7 +90,7 @@ Export Pipeline
 While the SDK serves to maintain a current set of records and
 coordinate collection, the behavior of a metrics export pipeline is
 configured through the export types in
-go.opentelemetry.io/otel/sdk/export/metric.  It is important to keep
+github.com/InVisionApp/opentelemetry-go/sdk/export/metric.  It is important to keep
 in mind the context these interfaces are called from.  There are two
 contexts, instrumentation context, where a user-level goroutine that
 enters the SDK resulting in a new record, and collection context,
@@ -163,4 +163,4 @@ Controllers are expected to implement the public metric.MeterProvider
 API, meaning they can be installed as the global Meter provider.
 
 */
-package metric // import "go.opentelemetry.io/otel/sdk/metric"
+package metric // import "github.com/InVisionApp/opentelemetry-go/sdk/metric"

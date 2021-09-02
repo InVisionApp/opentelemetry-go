@@ -17,8 +17,8 @@ package transform
 import (
 	commonpb "github.com/open-telemetry/opentelemetry-proto/gen/go/common/v1"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 // Attributes transforms a slice of KeyValues into a slice of OTLP attribute key-values.

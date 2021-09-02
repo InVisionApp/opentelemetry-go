@@ -20,10 +20,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/global/internal"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/global/internal"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
+	sdktrace "github.com/InVisionApp/opentelemetry-go/sdk/trace"
 )
 
 type testSpanProcesor struct {

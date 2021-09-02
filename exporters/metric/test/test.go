@@ -18,15 +18,15 @@ import (
 	"context"
 	"errors"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/array"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/histogram"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/lastvalue"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/array"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/histogram"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/lastvalue"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/sum"
 )
 
 type mapkey struct {

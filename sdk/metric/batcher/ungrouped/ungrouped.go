@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package ungrouped // import "go.opentelemetry.io/otel/sdk/metric/batcher/ungrouped"
+package ungrouped // import "github.com/InVisionApp/opentelemetry-go/sdk/metric/batcher/ungrouped"
 
 import (
 	"context"
 	"errors"
 
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
 )
 
 type (

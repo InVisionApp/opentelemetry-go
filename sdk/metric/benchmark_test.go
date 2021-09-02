@@ -21,16 +21,16 @@ import (
 	"strings"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/ddsketch"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/lastvalue"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/minmaxsumcount"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	sdk "github.com/InVisionApp/opentelemetry-go/sdk/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/ddsketch"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/lastvalue"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/minmaxsumcount"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/sum"
 )
 
 type processFunc func(context.Context, export.Record) error

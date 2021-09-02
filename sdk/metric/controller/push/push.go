@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package push // import "go.opentelemetry.io/otel/sdk/metric/controller/push"
+package push // import "github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
 
 import (
 	"context"
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/metric/registry"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/api/metric/registry"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	sdk "github.com/InVisionApp/opentelemetry-go/sdk/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 // Controller organizes a periodic push of metric data.

@@ -15,7 +15,7 @@
 package trace
 
 import (
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 const (

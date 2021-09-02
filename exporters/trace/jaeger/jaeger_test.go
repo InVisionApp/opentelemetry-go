@@ -25,14 +25,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/key"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	gen "go.opentelemetry.io/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	apitrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	gen "github.com/InVisionApp/opentelemetry-go/exporters/trace/jaeger/internal/gen-go/jaeger"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
+	sdktrace "github.com/InVisionApp/opentelemetry-go/sdk/trace"
 )
 
 func TestNewExporterPipelineWithRegistration(t *testing.T) {

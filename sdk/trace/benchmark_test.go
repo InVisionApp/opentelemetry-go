@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	apitrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	sdktrace "github.com/InVisionApp/opentelemetry-go/sdk/trace"
 )
 
 func BenchmarkStartEndSpan(b *testing.B) {

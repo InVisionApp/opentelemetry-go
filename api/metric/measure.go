@@ -17,7 +17,7 @@ package metric
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 // Float64Measure is a metric that records float64 values.

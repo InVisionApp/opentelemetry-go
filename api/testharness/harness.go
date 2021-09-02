@@ -23,10 +23,10 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/internal/matchers"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/internal/matchers"
 )
 
 type Harness struct {

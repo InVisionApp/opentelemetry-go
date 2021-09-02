@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package internal // import "go.opentelemetry.io/otel/sdk/internal"
+package internal // import "github.com/InVisionApp/opentelemetry-go/sdk/internal"
 
 import (
 	"fmt"
 	"time"
 
-	opentelemetry "go.opentelemetry.io/otel/sdk"
+	opentelemetry "github.com/InVisionApp/opentelemetry-go/sdk"
 )
 
 // UserAgent is the user agent to be added to the outgoing

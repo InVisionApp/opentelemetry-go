@@ -17,9 +17,9 @@ package opentracing
 import (
 	"context"
 
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 
-	"go.opentelemetry.io/otel/bridge/opentracing/migration"
+	"github.com/InVisionApp/opentelemetry-go/bridge/opentracing/migration"
 )
 
 type WrapperProvider struct {

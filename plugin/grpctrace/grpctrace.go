@@ -19,11 +19,11 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/correlation"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/propagation"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 type metadataSupplier struct {

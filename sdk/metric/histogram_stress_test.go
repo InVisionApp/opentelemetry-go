@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/histogram"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/histogram"
 )
 
 func TestStressInt64Histogram(t *testing.T) {

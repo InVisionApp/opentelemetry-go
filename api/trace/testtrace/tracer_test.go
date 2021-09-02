@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/testharness"
-	"go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/api/trace/testtrace"
-	"go.opentelemetry.io/otel/internal/matchers"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/testharness"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/trace/testtrace"
+	"github.com/InVisionApp/opentelemetry-go/internal/matchers"
 )
 
 func TestTracer(t *testing.T) {

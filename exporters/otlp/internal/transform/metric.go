@@ -27,12 +27,12 @@ import (
 	metricpb "github.com/open-telemetry/opentelemetry-proto/gen/go/metrics/v1"
 	resourcepb "github.com/open-telemetry/opentelemetry-proto/gen/go/resource/v1"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 var (

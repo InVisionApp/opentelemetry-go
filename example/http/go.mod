@@ -1,7 +1,7 @@
-module go.opentelemetry.io/otel/example/http
+module github.com/InVisionApp/opentelemetry-go/example/http
 
 go 1.13
 
-replace go.opentelemetry.io/otel => ../..
+replace github.com/InVisionApp/opentelemetry-go => ../..
 
-require go.opentelemetry.io/otel v0.4.3
+require github.com/InVisionApp/opentelemetry-go v0.4.3

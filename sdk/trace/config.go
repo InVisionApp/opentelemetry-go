@@ -15,8 +15,8 @@
 package trace
 
 import (
-	"go.opentelemetry.io/otel/sdk/resource"
-	"go.opentelemetry.io/otel/sdk/trace/internal"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/sdk/trace/internal"
 )
 
 // Config represents the global tracing configuration.

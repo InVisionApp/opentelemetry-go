@@ -28,10 +28,10 @@ import (
 	colmetricpb "github.com/open-telemetry/opentelemetry-proto/gen/go/collector/metrics/v1"
 	coltracepb "github.com/open-telemetry/opentelemetry-proto/gen/go/collector/trace/v1"
 
-	"go.opentelemetry.io/otel/exporters/otlp/internal/transform"
-	metricsdk "go.opentelemetry.io/otel/sdk/export/metric"
-	tracesdk "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/exporters/otlp/internal/transform"
+	metricsdk "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	tracesdk "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 type Exporter struct {
@@ -209,7 +209,7 @@ func (e *Exporter) Stop() error {
 	return err
 }
 
-// Export implements the "go.opentelemetry.io/otel/sdk/export/metric".Exporter
+// Export implements the "github.com/InVisionApp/opentelemetry-go/sdk/export/metric".Exporter
 // interface. It transforms and batches metric Records into OTLP Metrics and
 // transmits them to the configured collector.
 func (e *Exporter) Export(parent context.Context, resource *resource.Resource, cps metricsdk.CheckpointSet) error {

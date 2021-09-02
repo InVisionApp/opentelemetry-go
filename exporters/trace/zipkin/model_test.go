@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/trace"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
 )
 
 func TestModelConversion(t *testing.T) {

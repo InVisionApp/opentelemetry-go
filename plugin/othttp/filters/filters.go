@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strings"
 
-	"go.opentelemetry.io/otel/plugin/othttp"
+	"github.com/InVisionApp/opentelemetry-go/plugin/othttp"
 )
 
 // Any takes a list of Filters and returns a Filter that

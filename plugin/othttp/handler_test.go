@@ -20,7 +20,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	mocktrace "go.opentelemetry.io/otel/internal/trace"
+	mocktrace "github.com/InVisionApp/opentelemetry-go/internal/trace"
 )
 
 func TestBasics(t *testing.T) {

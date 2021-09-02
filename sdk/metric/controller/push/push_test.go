@@ -25,13 +25,13 @@ import (
 	"github.com/benbjohnson/clock"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/metric/test"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/exporters/metric/test"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/sum"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 type testBatcher struct {

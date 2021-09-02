@@ -21,13 +21,13 @@ import (
 
 	ot "github.com/opentracing/opentracing-go"
 
-	otelcore "go.opentelemetry.io/otel/api/core"
-	otelcorrelation "go.opentelemetry.io/otel/api/correlation"
-	otelglobal "go.opentelemetry.io/otel/api/global"
-	otelkey "go.opentelemetry.io/otel/api/key"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	otelcore "github.com/InVisionApp/opentelemetry-go/api/core"
+	otelcorrelation "github.com/InVisionApp/opentelemetry-go/api/correlation"
+	otelglobal "github.com/InVisionApp/opentelemetry-go/api/global"
+	otelkey "github.com/InVisionApp/opentelemetry-go/api/key"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 
-	"go.opentelemetry.io/otel/bridge/opentracing/internal"
+	"github.com/InVisionApp/opentelemetry-go/bridge/opentracing/internal"
 )
 
 type mixedAPIsTestCase struct {

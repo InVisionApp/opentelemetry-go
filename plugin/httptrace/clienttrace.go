@@ -24,10 +24,10 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 var (
@@ -68,7 +68,7 @@ func NewClientTrace(ctx context.Context) *httptrace.ClientTrace {
 		activeHooks: make(map[string]context.Context),
 	}
 
-	ct.tr = global.Tracer("go.opentelemetry.io/otel/plugin/httptrace")
+	ct.tr = global.Tracer("github.com/InVisionApp/opentelemetry-go/plugin/httptrace")
 
 	return &httptrace.ClientTrace{
 		GetConn:              ct.getConn,

@@ -17,7 +17,7 @@ package trace
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 type traceContextKeyType int

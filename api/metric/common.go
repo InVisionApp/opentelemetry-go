@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 type syncInstrument struct {

@@ -21,10 +21,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
-	mocktrace "go.opentelemetry.io/otel/internal/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/propagation"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
+	mocktrace "github.com/InVisionApp/opentelemetry-go/internal/trace"
 )
 
 var (

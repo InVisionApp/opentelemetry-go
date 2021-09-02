@@ -22,11 +22,11 @@ import (
 	"google.golang.org/api/support/bundler"
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/global"
-	gen "go.opentelemetry.io/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	gen "github.com/InVisionApp/opentelemetry-go/exporters/trace/jaeger/internal/gen-go/jaeger"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
+	sdktrace "github.com/InVisionApp/opentelemetry-go/sdk/trace"
 )
 
 const defaultServiceName = "OpenTelemetry"

@@ -14,4 +14,4 @@
 
 // This package provides convenience functions for creating keys and
 // key-value pairs.
-package key // import "go.opentelemetry.io/otel/api/key"
+package key // import "github.com/InVisionApp/opentelemetry-go/api/key"

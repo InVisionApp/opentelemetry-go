@@ -27,15 +27,15 @@ import (
 	otext "github.com/opentracing/opentracing-go/ext"
 	otlog "github.com/opentracing/opentracing-go/log"
 
-	otelcore "go.opentelemetry.io/otel/api/core"
-	otelcorrelation "go.opentelemetry.io/otel/api/correlation"
-	otelglobal "go.opentelemetry.io/otel/api/global"
-	otelkey "go.opentelemetry.io/otel/api/key"
-	otelpropagation "go.opentelemetry.io/otel/api/propagation"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
-	otelparent "go.opentelemetry.io/otel/internal/trace/parent"
+	otelcore "github.com/InVisionApp/opentelemetry-go/api/core"
+	otelcorrelation "github.com/InVisionApp/opentelemetry-go/api/correlation"
+	otelglobal "github.com/InVisionApp/opentelemetry-go/api/global"
+	otelkey "github.com/InVisionApp/opentelemetry-go/api/key"
+	otelpropagation "github.com/InVisionApp/opentelemetry-go/api/propagation"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	otelparent "github.com/InVisionApp/opentelemetry-go/internal/trace/parent"
 
-	"go.opentelemetry.io/otel/bridge/opentracing/migration"
+	"github.com/InVisionApp/opentelemetry-go/bridge/opentracing/migration"
 )
 
 type bridgeSpanContext struct {
@@ -401,7 +401,7 @@ func (t *BridgeTracer) StartSpan(operationName string, opts ...ot.StartSpanOptio
 	})
 	if checkCtx != checkCtx2 {
 		t.warnOnce.Do(func() {
-			t.warningHandler("SDK should have deferred the context setup, see the documentation of go.opentelemetry.io/otel/bridge/opentracing/migration\n")
+			t.warningHandler("SDK should have deferred the context setup, see the documentation of github.com/InVisionApp/opentelemetry-go/bridge/opentracing/migration\n")
 		})
 	}
 	if hadTrueErrorTag {

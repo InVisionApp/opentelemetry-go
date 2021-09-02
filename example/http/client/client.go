@@ -24,12 +24,12 @@ import (
 	"net/http"
 	"time"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/exporters/trace/stdout"
-	"go.opentelemetry.io/otel/plugin/httptrace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/correlation"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/exporters/trace/stdout"
+	"github.com/InVisionApp/opentelemetry-go/plugin/httptrace"
+	sdktrace "github.com/InVisionApp/opentelemetry-go/sdk/trace"
 )
 
 func initTracer() {

@@ -17,8 +17,8 @@ package trace
 import (
 	"container/list"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/sdk/export/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
 )
 
 // attributesMap is a capped map of attributes, holding the most recent attributes.

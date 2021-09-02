@@ -24,12 +24,12 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/api/trace/testtrace"
-	"go.opentelemetry.io/otel/internal/matchers"
-	ottest "go.opentelemetry.io/otel/internal/testing"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/trace/testtrace"
+	"github.com/InVisionApp/opentelemetry-go/internal/matchers"
+	ottest "github.com/InVisionApp/opentelemetry-go/internal/testing"
 )
 
 func TestSpan(t *testing.T) {
@@ -135,7 +135,7 @@ func TestSpan(t *testing.T) {
 			}{
 				{
 					err: ottest.NewTestError("test error"),
-					typ: "go.opentelemetry.io/otel/internal/testing.TestError",
+					typ: "github.com/InVisionApp/opentelemetry-go/internal/testing.TestError",
 					msg: "test error",
 				},
 				{
@@ -192,7 +192,7 @@ func TestSpan(t *testing.T) {
 				Timestamp: testTime,
 				Name:      "error",
 				Attributes: map[core.Key]core.Value{
-					core.Key("error.type"):    core.String("go.opentelemetry.io/otel/internal/testing.TestError"),
+					core.Key("error.type"):    core.String("github.com/InVisionApp/opentelemetry-go/internal/testing.TestError"),
 					core.Key("error.message"): core.String(errMsg),
 				},
 			}}

@@ -15,7 +15,7 @@
 package label
 
 import (
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 // Iterator allows iterating over the set of labels in order,

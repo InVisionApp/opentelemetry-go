@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package metric // import "go.opentelemetry.io/otel/sdk/export/metric"
+package metric // import "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 // Batcher is responsible for deciding which kind of aggregation to

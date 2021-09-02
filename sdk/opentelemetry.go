@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package opentelemetry contains Go support for OpenTelemetry.
-package opentelemetry // import "go.opentelemetry.io/otel/sdk"
+package opentelemetry // import "github.com/InVisionApp/opentelemetry-go/sdk"
 
 // Version is the current release version of OpenTelemetry in use.
 func Version() string {

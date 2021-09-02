@@ -21,7 +21,7 @@ import (
 	"net/textproto"
 	"strings"
 
-	"go.opentelemetry.io/otel/plugin/othttp"
+	"github.com/InVisionApp/opentelemetry-go/plugin/othttp"
 )
 
 // Header returns a Filter that returns true if the request

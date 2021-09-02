@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package resourcekeys contains well known type and label keys for resources.
-package resourcekeys // import "go.opentelemetry.io/otel/sdk/resource/resourcekeys"
+package resourcekeys // import "github.com/InVisionApp/opentelemetry-go/sdk/resource/resourcekeys"
 
 // Constants for Service resources.
 const (

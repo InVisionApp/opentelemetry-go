@@ -24,16 +24,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
-	metricsdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/array"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
-	batchTest "go.opentelemetry.io/otel/sdk/metric/batcher/test"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
+	metricsdk "github.com/InVisionApp/opentelemetry-go/sdk/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/array"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/sum"
+	batchTest "github.com/InVisionApp/opentelemetry-go/sdk/metric/batcher/test"
 )
 
 var Must = metric.Must

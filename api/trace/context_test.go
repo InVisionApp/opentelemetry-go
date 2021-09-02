@@ -21,8 +21,8 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 func TestSetCurrentSpanOverridesPreviouslySetSpan(t *testing.T) {

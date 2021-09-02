@@ -18,10 +18,10 @@ import (
 	"io"
 	"net/http"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/propagation"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 var _ http.Handler = &Handler{}
@@ -85,7 +85,7 @@ func WithPublicEndpoint() Option {
 
 // WithPropagators configures the Handler with specific propagators. If this
 // option isn't specified then
-// go.opentelemetry.io/otel/api/global.Propagators are used.
+// github.com/InVisionApp/opentelemetry-go/api/global.Propagators are used.
 func WithPropagators(ps propagation.Propagators) Option {
 	return func(h *Handler) {
 		h.props = ps

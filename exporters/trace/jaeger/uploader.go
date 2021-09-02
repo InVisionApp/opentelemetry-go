@@ -24,7 +24,7 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	gen "go.opentelemetry.io/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
+	gen "github.com/InVisionApp/opentelemetry-go/exporters/trace/jaeger/internal/gen-go/jaeger"
 )
 
 // batchUploader send a batch of spans to Jaeger

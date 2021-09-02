@@ -17,7 +17,7 @@ package testtrace
 import (
 	"time"
 
-	"go.opentelemetry.io/otel/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
 )
 
 // Event encapsulates the properties of calls to AddEvent or AddEventWithTimestamp.

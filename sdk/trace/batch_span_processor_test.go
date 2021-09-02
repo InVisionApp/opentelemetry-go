@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/api/core"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	apitrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
+	sdktrace "github.com/InVisionApp/opentelemetry-go/sdk/trace"
 )
 
 type testBatchExporter struct {

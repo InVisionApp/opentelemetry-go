@@ -20,9 +20,9 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/metric/registry"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/api/metric/registry"
 )
 
 // This file contains the forwarding implementation of metric.Provider

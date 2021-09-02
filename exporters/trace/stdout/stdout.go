@@ -20,7 +20,7 @@ import (
 	"io"
 	"os"
 
-	export "go.opentelemetry.io/otel/sdk/export/trace"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
 )
 
 // Options are the options to be used when initializing a stdout export.

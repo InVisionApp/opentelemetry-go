@@ -35,7 +35,7 @@ import (
 	"context"
 	"sync"
 
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 // traceProvider is a placeholder for a configured SDK Provider.

@@ -18,10 +18,10 @@ import (
 	"context"
 	"sync"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/metric"
-	apimetric "go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/metric/registry"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	apimetric "github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/api/metric/registry"
 )
 
 type (

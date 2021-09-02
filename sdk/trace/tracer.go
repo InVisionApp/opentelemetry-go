@@ -17,8 +17,8 @@ package trace
 import (
 	"context"
 
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/internal/trace/parent"
+	apitrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/internal/trace/parent"
 )
 
 type tracer struct {

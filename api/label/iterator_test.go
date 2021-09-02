@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
 )
 
 func TestIterator(t *testing.T) {

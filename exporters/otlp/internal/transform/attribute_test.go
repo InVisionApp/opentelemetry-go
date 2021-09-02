@@ -20,8 +20,8 @@ import (
 	commonpb "github.com/open-telemetry/opentelemetry-proto/gen/go/common/v1"
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
 )
 
 func TestAttributes(t *testing.T) {

@@ -15,8 +15,8 @@
 package push
 
 import (
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/resource"
+	sdk "github.com/InVisionApp/opentelemetry-go/sdk/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 // Config contains configuration for a push Controller.

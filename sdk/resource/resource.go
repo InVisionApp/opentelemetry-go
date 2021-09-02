@@ -17,8 +17,8 @@
 package resource
 
 import (
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
 )
 
 // Resource describes an entity about which identifying information

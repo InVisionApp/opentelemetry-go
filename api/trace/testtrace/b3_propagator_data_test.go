@@ -15,8 +15,8 @@
 package testtrace_test
 
 import (
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 type extractTest struct {

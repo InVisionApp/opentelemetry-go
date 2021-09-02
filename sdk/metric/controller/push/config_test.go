@@ -20,9 +20,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/api/key"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	sdk "github.com/InVisionApp/opentelemetry-go/sdk/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 func TestWithErrorHandler(t *testing.T) {

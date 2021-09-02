@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/trace"
 
-	"go.opentelemetry.io/otel/internal/trace/parent"
+	"github.com/InVisionApp/opentelemetry-go/internal/trace/parent"
 )
 
 var _ trace.Tracer = (*Tracer)(nil)

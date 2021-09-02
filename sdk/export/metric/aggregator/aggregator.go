@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package aggregator // import "go.opentelemetry.io/otel/sdk/export/metric/aggregator"
+package aggregator // import "github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
 
 import (
 	"fmt"
 	"math"
 	"time"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
 )
 
 // These interfaces describe the various ways to access state from an

@@ -17,7 +17,7 @@ package opentracing
 import (
 	"context"
 
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 // NewTracerPair is a utility function that creates a BridgeTracer

@@ -19,9 +19,9 @@ import (
 
 	tracepb "github.com/open-telemetry/opentelemetry-proto/gen/go/trace/v1"
 
-	"go.opentelemetry.io/otel/api/label"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
+	apitrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/trace"
 )
 
 const (
